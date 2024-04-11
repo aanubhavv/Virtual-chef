@@ -49,7 +49,7 @@ class WorkerThread(QThread):
         isRunning = True
         try:
             global prompt, tts
-            headers = {"Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZjBiNTNiNmQtNDM4Mi00ZDI1LTk5ZDYtNDA5NWQwMjgzMzNmIiwidHlwZSI6ImFwaV90b2tlbiJ9.QhyEJJ7pJ6BLdS6k15qATwdEB7inecLdNSA6_VWhTio"}
+            headers = {"Authorization": "Bearer {🔑 API Key here}"} # EdenAI key to be used here (code can be modified to use OpenAI paid version)
 
             url = "https://api.edenai.run/v2/text/generation"
             payload = {
