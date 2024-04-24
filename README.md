@@ -3,3 +3,5 @@ Virtual Chef is a cutting-edge technology that offers users a new way to cook an
 
 # Required Packages
 - PySide6
+- speech_recognition
+- pyttsx3
