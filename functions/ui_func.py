@@ -6,7 +6,6 @@ import speech_recognition as sr
 import json
 import requests
 
-import os
 from PySide6.QtCore import QThread
 from PySide6 import QtCore
 
@@ -49,7 +48,7 @@ class WorkerThread(QThread):
         isRunning = True
         try:
             global prompt, tts
-            headers = {"Authorization": "Bearer {🔑 API Key here}"} # EdenAI key to be used here (code can be modified to use OpenAI paid version)
+            headers = {"Authorization": "Bearer API_KEY"}
 
             url = "https://api.edenai.run/v2/text/generation"
             payload = {
