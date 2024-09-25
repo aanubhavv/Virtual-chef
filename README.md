@@ -5,3 +5,6 @@ Virtual Chef is a cutting-edge technology that offers users a new way to cook an
 - PySide6
 - SpeechRecognition
 - pyttsx3
+
+use `pip install -r requirements.txt` to install all required packages at once.
+
